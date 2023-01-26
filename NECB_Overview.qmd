@@ -32,7 +32,7 @@ Net ecosystem exchange **NEE** is net flux of $CO_2$ *observed* between an ecosy
 
 ## The NECB
 
-@chapin_reconciling_2006 define the term net ecosystem carbon balance (NECB) to describe the sum of all components of the carbon (C) balance for an ecosystem. The NECB includes:
+@chapin_reconciling_2006 define the term net ecosystem carbon balance (NECB) to describe the sum of all components of the carbon (C) balance for an ecosystem.  The NECB is a <b>broad</b> concept, we can't measure it completely with micrometeorologic methods alone.  It represents the net change in ecosystem C per unit time: $NECB = \frac{dC}{dt}$.  It includes:
 
 * All sinks and sources of both organic and inorganic C
   * Natural **b** anthropogenic in origin
@@ -40,12 +40,6 @@ Net ecosystem exchange **NEE** is net flux of $CO_2$ *observed* between an ecosy
   * Terrestrial &harr; atmospheric
   * Terrestrial &harr; aquatic
   * Bulk/particulate transport
-
-The NECB is a <b>broad</b> concept, we can't measure it completely with micrometeorologic methods alone.  It represents the net change in ecosystem C per unit time.  
-
-$$
-NECB = \frac{dC}{dt}
-$$
 
 ## Components of the NECB
 
