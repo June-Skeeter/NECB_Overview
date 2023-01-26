@@ -11,6 +11,7 @@ output-file: index.html
 ## NEP
 
 Net ecosystem productivity (**NEP**) is the primary component of the C balance in most terrestrial ecosystems.  It is defined as the difference between ecosystem scale photosynthesis and respiration: $NEP = GPP - ER$ [e.g., @lovett_is_2006]. The sign convention is **opposite** of what micrometeorologists often use.  Positive (+) indicates accumulation of C **in** the ecosystem, negative (-) indicates loss of C **from** the ecosystem.
+
 * Gross primary productivity (**GPP**) is the total photosynthetic uptake of carbon dioxide $CO_2$ by an ecosystem.
 * Ecosystem respiration (**ER**) is the total **aerobic** respiration of $CO_2$ by an ecosystem: $ER = AR + HR$.
   * Autotrophic respiration (**AR**) is $CO_2$ respired by primary producers (i.e., plants). From this we can define net primary production (**NPP**) as the difference between GPP and AR: $NPP = GPP-AR$
@@ -19,6 +20,7 @@ Net ecosystem productivity (**NEP**) is the primary component of the C balance i
 ## NEE
 
 Net ecosystem exchange **NEE** is net flux of $CO_2$ *observed* between an ecosystem and the atmosphere (e.g., by eddy covariance [EC] or flux chamber [FC] methods).  It is frequently treated as the inverse of NEP: i.e., NEE = ER - GPP [@aubinet_eddy_2012].  The sign convention is opposite of NEP because NEE was defined by atmospheric scientists; positive (+) indicates accumulation of C **in** the atmosphere, negative (-) uptake of C **from** the atmosphere.
+
 * At small spatial scales and over short timescales $NEP \approx -NEE$ [@baldocchi_assessing_2003] but strictly speaking, **they are not equivalent**.
 * Over larger/longer scales they diverge:
   * ER derived $CO_2$ dissolved in ground water:
