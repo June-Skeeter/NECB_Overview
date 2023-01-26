@@ -58,6 +58,7 @@ $$
   * Ecosystem &harr; atmosphere $CO_4$ fluxes
   * A significant component of the NECB in many wetland ecosystems (e.g., @lai_methane_2009; @serrano-silva_methanogenesis_2014)
   * Especially important for GHG budgets because it has a global warming potential 27 times that of $CO_2$ on a 100 yr timescale (@masson-delmotte_climate_2021)
+    * Methane exchange is governed by the balance between $CH_4$ production (methanogenesis) and consumption (methanotrophy) - but this isn't fully included in $F_{CH4}$
 * $F_{VOC}$: Fluxes of volatile organic compounds (VOC)
   * Organic compounds (e.g., isoprene) are emitted by living plants
   * Small, but non-negligible contributions - isoprene fluxes were less 0.5% the magnitude of NEE in a temperate poplar forest @portillo-estrada_contribution_2018
@@ -68,9 +69,12 @@ $$
 * $F_{PC}$: Fluxes of bulk/particulate carbon (PC)
   * A bit of a catch all - flux of particulate carbon can include all sorts of things:
     * Fluvial or aeolian erosion/deposition of organic matter
-    * Grazing herbivores (C removal) and animal droppings (C deposition)
+    * Grazing herbivores (C removal) and animal droppings (C deposition) @fig-grazing
     * Timber harvesting or agriculture (bulk C removal)
   * Spatially and temporally variable - heavily dependent upon the system you're looking at.
+
+
+![Reindeer Grazing](images/Tundra_Veg.JPG){#fig-grazing}
 
 ### References
 
