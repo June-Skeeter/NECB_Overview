@@ -80,36 +80,20 @@ div.csl-indent {
 
 </header>
 
-<p><span class="citation" data-cites="chapin_reconciling_2006">Chapin et al. (<a href="#ref-chapin_reconciling_2006" role="doc-biblioref">2006</a>)</span> is a helpful resource that clarifies some key terms and concepts that are used to discuss carbon exchange. Different fields have different conventions (e.g.&nbsp;micrometeorology vs ecology) and it can get pretty confusing when you’re reading literature from a mix of fields or trying to write to a broad audience.</p>
-<section id="nep-vs.-nee" class="level2">
-<h2 class="anchored" data-anchor-id="nep-vs.-nee">NEP vs.&nbsp;NEE</h2>
-<p>To highlight the mix up, lets compare net ecosystem productivity (NEP) and net ecosystem exchange (NEE).</p>
-<ul>
-<li><strong>NEP</strong> is the difference between ecosystem scale photosynthesis and respiration: <span class="math inline">\(NEP = GPP - ER\)</span> <span class="citation" data-cites="lovett_is_2006">(e.g., <a href="#ref-lovett_is_2006" role="doc-biblioref">Lovett et al., 2006</a>)</span>
-<ul>
-<li><strong>GPP</strong>: Gross primary production - photosynthetic uptake of <span class="math inline">\(CO_2\)</span></li>
-<li><strong>ER</strong>: The sum of Autotrophic (AR) and Heterotrophic (HR) respiration, i.e., the total aerobic respiration of <span class="math inline">\(CO_2\)</span> by an ecosystem.
-<ul>
-<li>AR: plants</li>
-<li>HR: everything else</li>
-</ul></li>
-</ul></li>
-<li><strong>NEE</strong> is net flux of <span class="math inline">\(CO_2\)</span> <em>observed</em> between an ecosystem and the atmosphere. It is frequently defined as NEE = ER - GPP <span class="citation" data-cites="aubinet_eddy_2012">(e.g., <a href="#ref-aubinet_eddy_2012" role="doc-biblioref">Aubinet et al., 2012</a>)</span>. This would define NEE as the inverse of NEP. But strictly speaking, this is not true.
-<ul>
-<li>At small spatial scales and over short timescales <span class="math inline">\(NEP \approx -NEE\)</span> <span class="citation" data-cites="baldocchi_assessing_2003">Baldocchi (<a href="#ref-baldocchi_assessing_2003" role="doc-biblioref">2003</a>)</span></li>
-<li>But over larger/longer scales they diverge because NEE does not account fluxes of dissolved <span class="math inline">\(CO_2\)</span>.
-<ul>
-<li>If respiration derived <span class="math inline">\(CO_2\)</span> is transported out of an ecosystem in ground water, its not <em>observed</em> by eddy covariance methods but its still part of NEP</li>
-</ul></li>
-</ul></li>
-<li>The key distinction: NEE is a property we directly measure with eddy covariance (or chambers), NEP is a value we can calculate if we known GPP and <strong>total</strong> ER.</li>
-</ul>
+<p><span class="citation" data-cites="chapin_reconciling_2006">Chapin et al. (<a href="#ref-chapin_reconciling_2006" role="doc-biblioref">2006</a>)</span> is a helpful resource that clarifies some key terms and concepts that are used to discuss carbon exchange. Different fields have different conventions (e.g.&nbsp;micrometeorology vs ecology) and it can get pretty confusing when you’re reading literature from a mix of fields or trying to write to a broad audience. A good example</p>
+<section id="nep" class="level2">
+<h2 class="anchored" data-anchor-id="nep">NEP</h2>
+<p>Net ecosystem productivity (<strong>NEP</strong>) is the primary component of the C balance in most terrestrial ecosystems. It is defined as the difference between ecosystem scale photosynthesis and respiration: <span class="math inline">\(NEP = GPP - ER\)</span> <span class="citation" data-cites="lovett_is_2006">(e.g., <a href="#ref-lovett_is_2006" role="doc-biblioref">Lovett et al., 2006</a>)</span>. The sign convention is <strong>opposite</strong> of what micrometeorologists often use. Positive (+) indicates accumulation of C <strong>in</strong> the ecosystem, negative (-) indicates loss of C <strong>from</strong> the ecosystem. * Gross primary productivity (<strong>GPP</strong>) is the total photosynthetic uptake of carbon dioxide <span class="math inline">\(CO_2\)</span> by an ecosystem. * Ecosystem respiration (<strong>ER</strong>) is the total <strong>aerobic</strong> respiration of <span class="math inline">\(CO_2\)</span> by an ecosystem: <span class="math inline">\(ER = AR + HR\)</span>. * Autotrophic respiration (<strong>AR</strong>) is <span class="math inline">\(CO_2\)</span> respired by primary producers (i.e., plants). From this we can define net primary production (<strong>NPP</strong>) as the difference between GPP and AR: <span class="math inline">\(NPP = GPP-AR\)</span> * Heterotrophic (HR) respiration is <span class="math inline">\(CO_2\)</span> respired by all other living organisms (i.e., bacteria, animals, fungi). This <span class="math inline">\(CO_2\)</span> is also derived from GPP, but in a more roundabout way.</p>
+</section>
+<section id="nee" class="level2">
+<h2 class="anchored" data-anchor-id="nee">NEE</h2>
+<p>Net ecosystem exchange <strong>NEE</strong> is net flux of <span class="math inline">\(CO_2\)</span> <em>observed</em> between an ecosystem and the atmosphere (e.g., by eddy covariance [EC] or flux chamber [FC] methods). It is frequently treated as the inverse of NEP: i.e., NEE = ER - GPP <span class="citation" data-cites="aubinet_eddy_2012">(<a href="#ref-aubinet_eddy_2012" role="doc-biblioref">Aubinet et al., 2012</a>)</span>. The sign convention is opposite of NEP because NEE was defined by atmospheric scientists; positive (+) indicates accumulation of C <strong>in</strong> the atmosphere, negative (-) uptake of C <strong>from</strong> the atmosphere. * At small spatial scales and over short timescales <span class="math inline">\(NEP \approx -NEE\)</span> <span class="citation" data-cites="baldocchi_assessing_2003">(<a href="#ref-baldocchi_assessing_2003" role="doc-biblioref">Baldocchi, 2003</a>)</span> but strictly speaking, <strong>they are not equivalent</strong>. * Over larger/longer scales they diverge: * ER derived <span class="math inline">\(CO_2\)</span> dissolved in ground water: * Transported <strong>out of</strong> an ecosystem; it will not be <em>observed</em> by eddy covariance methods but its still part of NEP * Transported <strong>into</strong> an ecosystem; it will be <em>observed</em> by eddy covariance methods but is actually part of NEP in ecosystem the dissolved <span class="math inline">\(CO_2\)</span> orriginated in * During fires, NEE and NEP are also drastically different, because <span class="math inline">\(CO_2\)</span> fluxes derived from combustion are not included in NEP * Can have <span class="math inline">\(NEP \approx 0\)</span> while <span class="math inline">\(NEE &gt;&gt; 0\)</span></p>
 </section>
 <section id="the-necb" class="level2">
 <h2 class="anchored" data-anchor-id="the-necb">The NECB</h2>
 <p><span class="citation" data-cites="chapin_reconciling_2006">Chapin et al. (<a href="#ref-chapin_reconciling_2006" role="doc-biblioref">2006</a>)</span> define the term net ecosystem carbon balance (NECB) to describe the sum of all components of the carbon (C) balance for an ecosystem. The NECB includes:</p>
 <ul>
-<li>Both all sinks and sources of both organic and inorganic C
+<li>All sinks and sources of both organic and inorganic C
 <ul>
 <li>Natural <strong>b</strong> anthropogenic in origin</li>
 </ul></li>
@@ -120,21 +104,26 @@ div.csl-indent {
 <li>Bulk/particulate transport</li>
 </ul></li>
 </ul>
-<p>The NECB is a <b>broad</b> concept, we can’t measure it completely with micrometeorologic methods alone. It represents the net change in ecosystem C per unit time. The sign convention is <strong>opposite</strong> of what micrometeorologists often use. Positive (+) accumulation of C <strong>in</strong> the ecosystem, Negative (-) loss of C <strong>from</strong> the ecosystem.</p>
+<p>The NECB is a <b>broad</b> concept, we can’t measure it completely with micrometeorologic methods alone. It represents the net change in ecosystem C per unit time.</p>
 <p><span class="math display">\[
 NECB = \frac{dC}{dt}
 \]</span></p>
 </section>
 <section id="components-of-the-necb" class="level2">
 <h2 class="anchored" data-anchor-id="components-of-the-necb">Components of the NECB</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Chapin_fig_1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><span class="citation" data-cites="chapin_reconciling_2006">Chapin et al. (<a href="#ref-chapin_reconciling_2006" role="doc-biblioref">2006</a>)</span> Figure 1</figcaption><p></p>
+</figure>
+</div>
 <p><span class="math display">\[
 NECB = -NEE + F_{CO} + F_{CH4} + F_{VOC} + F_{DIC} + F_{DOC} + F_{PC}
 \]</span></p>
 <ul>
-<li>NEE: Net ecosystem exchange of carbon dioxide (<span class="math inline">\(CO_2\)</span>)
+<li>NEE: is the primary component of the NECB in most ecosystems.
 <ul>
-<li>Ecosystem ↔︎ atmosphere <span class="math inline">\(CO_2\)</span> fluxes</li>
-<li>Sign convention is opposite of NECB</li>
+<li>Over short timescales, in some ecosystems <span class="math inline">\(NECB \approx -NEE\)</span>$ <span class="citation" data-cites="baldocchi_assessing_2003">Baldocchi (<a href="#ref-baldocchi_assessing_2003" role="doc-biblioref">2003</a>)</span>. But as the temporal and/or spatial scales increase NEE and NECB diverge.</li>
 </ul></li>
 <li><span class="math inline">\(F_{CO}\)</span>: Fluxes of carbon monoxide (CO)
 <ul>
@@ -161,16 +150,15 @@ NECB = -NEE + F_{CO} + F_{CH4} + F_{VOC} + F_{DIC} + F_{DOC} + F_{PC}
 </ul></li>
 <li><span class="math inline">\(F_{PC}\)</span>: Fluxes of bulk/particulate carbon (PC)
 <ul>
-<li>A bit of a catch all - flux of particulate carbon can include everything from erosion/deposition of organic matter to animal droppings (C deposition) or timber harvesting (bulk C removal)</li>
+<li>A bit of a catch all - flux of particulate carbon can include all sorts of things:
+<ul>
+<li>Fluvial or aeolian erosion/deposition of organic matter</li>
+<li>Grazing herbivores (C removal) and animal droppings (C deposition)</li>
+<li>Timber harvesting or agriculture (bulk C removal)</li>
+</ul></li>
 <li>Spatially and temporally variable - heavily dependent upon the system you’re looking at.</li>
 </ul></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Chapin_fig_1.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><span class="citation" data-cites="chapin_reconciling_2006">Chapin et al. (<a href="#ref-chapin_reconciling_2006" role="doc-biblioref">2006</a>)</span> Figure 1</figcaption><p></p>
-</figure>
-</div>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
