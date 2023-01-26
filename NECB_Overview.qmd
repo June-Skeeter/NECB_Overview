@@ -1,12 +1,9 @@
 ---
 title: "Reconciling Carbon-cycle Concepts, Terms, and Methods"
-format:
-  html:
-    code-fold: false
-jupyter: python3
 echo: false
 bibliography: NECB.bib
 csl: american-geophysical-union.csl
+output-file: index.html
 ---
 
 @chapin_reconciling_2006 is a helpful resource that clarifies some key terms and concepts that are used to discuss carbon exchange.  Different fields have different conventions (e.g. micrometeorology vs ecology) and it can get pretty confusing when you're reading literature from a mix of fields or trying to write to a broad audience.  
