@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="NECB_Overview_files/libs/clipboard/clipboard.min.js"></script>
@@ -53,6 +53,7 @@ div.csl-indent {
 <link href="NECB_Overview_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="NECB_Overview_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
@@ -133,7 +134,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Chapin_fig_1.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><span class="citation" data-cites="chapin_reconciling_2006">Chapin et al. (<a href="#ref-chapin_reconciling_2006" role="doc-biblioref">2006</a>)</span> Figure 1</figcaption><p></p>
+<figcaption class="figure-caption"><span class="citation" data-cites="chapin_reconciling_2006">Chapin et al. (<a href="#ref-chapin_reconciling_2006" role="doc-biblioref">2006</a>)</span> Figure 1</figcaption>
 </figure>
 </div>
 <p><span class="math display">\[
@@ -142,7 +143,7 @@ NECB = -NEE + F_{CO} + F_{CH4} + F_{VOC} + F_{DIC} + F_{DOC} + F_{PC}
 <ul>
 <li>NEE: is the primary component of the NECB in most ecosystems.
 <ul>
-<li>Over short timescales, in some ecosystems <span class="math inline">\(NECB \approx -NEE\)</span>$ <span class="citation" data-cites="baldocchi_assessing_2003">Baldocchi (<a href="#ref-baldocchi_assessing_2003" role="doc-biblioref">2003</a>)</span>. But as the temporal and/or spatial scales increase NEE and NECB diverge.</li>
+<li>Over short timescales, in some ecosystems <span class="math inline">\(NECB \approx -NEE\)</span> <span class="citation" data-cites="baldocchi_assessing_2003">Baldocchi (<a href="#ref-baldocchi_assessing_2003" role="doc-biblioref">2003</a>)</span>. But as the temporal and/or spatial scales increase NEE and NECB diverge.</li>
 </ul></li>
 <li><span class="math inline">\(F_{CO}\)</span>: Fluxes of carbon monoxide (CO)
 <ul>
@@ -184,52 +185,52 @@ NECB = -NEE + F_{CO} + F_{CH4} + F_{VOC} + F_{DIC} + F_{DOC} + F_{PC}
 <div id="fig-grazing" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/Tundra_Veg.JPG" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;1: Reindeer Grazing</figcaption><p></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Reindeer Grazing</figcaption>
 </figure>
 </div>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References</h3>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-aubinet_eddy_2012" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-aubinet_eddy_2012" class="csl-entry" role="listitem">
 Aubinet, M., Vesala, T., &amp; Papale, D. (Eds.). (2012). <em>Eddy <span>Covariance</span>: <span>A</span> <span>Practical</span> <span>Guide</span> to <span>Measurement</span> and <span>Data</span> <span>Analysis</span></em> (2012 edition). Dordrecht ; New York: Springer.
 </div>
-<div id="ref-baldocchi_assessing_2003" class="csl-entry" role="doc-biblioentry">
+<div id="ref-baldocchi_assessing_2003" class="csl-entry" role="listitem">
 Baldocchi, D. D. (2003). Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems: Past, present and future. <em>Global Change Biology</em>, <em>9</em>(4), 479–492. <a href="https://doi.org/10.1046/j.1365-2486.2003.00629.x">https://doi.org/10.1046/j.1365-2486.2003.00629.x</a>
 </div>
-<div id="ref-campeau_multiple_2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-campeau_multiple_2017" class="csl-entry" role="listitem">
 Campeau, A., Wallin, M. B., Giesler, R., Löfgren, S., Mörth, C.-M., Schiff, S., et al. (2017). Multiple sources and sinks of dissolved inorganic carbon across <span>Swedish</span> streams, refocusing the lens of stable <span>C</span> isotopes. <em>Scientific Reports</em>, <em>7</em>(1), 9158. <a href="https://doi.org/10.1038/s41598-017-09049-9">https://doi.org/10.1038/s41598-017-09049-9</a>
 </div>
-<div id="ref-chapin_reconciling_2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-chapin_reconciling_2006" class="csl-entry" role="listitem">
 Chapin, F. S., Woodwell, G. M., Randerson, J. T., Rastetter, E. B., Lovett, G. M., Baldocchi, D. D., et al. (2006). Reconciling <span>Carbon</span>-cycle <span>Concepts</span>, <span>Terminology</span>, and <span>Methods</span>. <em>Ecosystems</em>, <em>9</em>(7), 1041–1050. <a href="https://doi.org/10.1007/s10021-005-0105-7">https://doi.org/10.1007/s10021-005-0105-7</a>
 </div>
-<div id="ref-cowan_seasonal_2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-cowan_seasonal_2018" class="csl-entry" role="listitem">
 Cowan, N., Helfter, C., Langford, B., Coyle, M., Levy, P., Moxley, J., et al. (2018). Seasonal fluxes of carbon monoxide from an intensively grazed grassland in <span>Scotland</span>. <em>Atmospheric Environment</em>, <em>194</em>, 170–178. <a href="https://doi.org/10.1016/j.atmosenv.2018.09.039">https://doi.org/10.1016/j.atmosenv.2018.09.039</a>
 </div>
-<div id="ref-dinsmore_role_2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-dinsmore_role_2010" class="csl-entry" role="listitem">
 Dinsmore, K. J., Billett, M. F., Skiba, U. M., Rees, R. M., Drewer, J., &amp; Helfter, C. (2010). Role of the aquatic pathway in the carbon and greenhouse gas budgets of a peatland catchment. <em>Global Change Biology</em>, <em>16</em>(10), 2750–2762. <a href="https://doi.org/10.1111/j.1365-2486.2009.02119.x">https://doi.org/10.1111/j.1365-2486.2009.02119.x</a>
 </div>
-<div id="ref-masson-delmotte_climate_2021" class="csl-entry" role="doc-biblioentry">
+<div id="ref-masson-delmotte_climate_2021" class="csl-entry" role="listitem">
 IPCC. (2021). <em>Climate <span>Change</span> 2021: <span>The</span> <span>Physical</span> <span>Science</span> <span>Basis</span>. <span>Contribution</span> of <span>Working</span> <span>Group</span> <span>I</span> to the <span>Sixth</span> <span>Assessment</span> <span>Report</span> of the <span>Intergovernmental</span> <span>Panel</span> on <span>Climate</span> <span>Change</span></em>. Cambridge University Press.
 </div>
-<div id="ref-kling_arctic_1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kling_arctic_1991" class="csl-entry" role="listitem">
 Kling, G. W., Kipphut, G. W., &amp; Miller, M. C. (1991). Arctic <span>Lakes</span> and <span>Streams</span> as <span>Gas</span> <span>Conduits</span> to the <span>Atmosphere</span>: <span>Implications</span> for <span>Tundra</span> <span>Carbon</span> <span>Budgets</span>. <em>Science</em>, <em>251</em>(4991), 298–301. <a href="https://doi.org/10.1126/science.251.4991.298">https://doi.org/10.1126/science.251.4991.298</a>
 </div>
-<div id="ref-lai_methane_2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-lai_methane_2009" class="csl-entry" role="listitem">
 Lai, D. Y. F. (2009). Methane <span>Dynamics</span> in <span>Northern</span> <span>Peatlands</span>: <span>A</span> <span>Review</span>. <em>Pedosphere</em>, <em>19</em>(4), 409–421.
 </div>
-<div id="ref-lovett_is_2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-lovett_is_2006" class="csl-entry" role="listitem">
 Lovett, G. M., Cole, J. J., &amp; Pace, M. L. (2006). Is <span>Net</span> <span>Ecosystem</span> <span>Production</span> <span>Equal</span> to <span>Ecosystem</span> <span>Carbon</span> <span>Accumulation</span>? <em>Ecosystems</em>, <em>9</em>(1), 152–155. <a href="https://doi.org/10.1007/s10021-005-0036-3">https://doi.org/10.1007/s10021-005-0036-3</a>
 </div>
-<div id="ref-portillo-estrada_contribution_2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-portillo-estrada_contribution_2018" class="csl-entry" role="listitem">
 Portillo-Estrada, M., Zenone, T., Arriga, N., &amp; Ceulemans, R. (2018). Contribution of volatile organic compound fluxes to the ecosystem carbon budget of a poplar short-rotation plantation. <em>GCB Bioenergy</em>, <em>10</em>(6), 405–414. <a href="https://doi.org/10.1111/gcbb.12506">https://doi.org/10.1111/gcbb.12506</a>
 </div>
-<div id="ref-serrano-silva_methanogenesis_2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-serrano-silva_methanogenesis_2014" class="csl-entry" role="listitem">
 Serrano-silva, N., Sarria-guzmán, Y., Dendooven, L., &amp; Luna-guido, M. (2014). Methanogenesis and <span>Methanotrophy</span> in <span>Soil</span>: <span>A</span> <span>Review</span>. <em>Pedosphere</em>, <em>24</em>(3), 291–307. <a href="https://doi.org/10.1016/S1002-0160(14)60016-3">https://doi.org/10.1016/S1002-0160(14)60016-3</a>
 </div>
-<div id="ref-waddington_groundwater_1997" class="csl-entry" role="doc-biblioentry">
+<div id="ref-waddington_groundwater_1997" class="csl-entry" role="listitem">
 Waddington, J. M., &amp; Roulet, N. T. (1997). Groundwater flow and dissolved carbon movement in a boreal peatland. <em>Journal of Hydrology</em>, <em>191</em>(1), 122–138. <a href="https://doi.org/10.1016/S0022-1694(96)03075-2">https://doi.org/10.1016/S0022-1694(96)03075-2</a>
 </div>
-<div id="ref-webb_importance_2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-webb_importance_2019" class="csl-entry" role="listitem">
 Webb, J. R., Santos, I. R., Maher, D. T., &amp; Finlay, K. (2019). The <span>Importance</span> of <span>Aquatic</span> <span>Carbon</span> <span>Fluxes</span> in <span>Net</span> <span>Ecosystem</span> <span>Carbon</span> <span>Budgets</span>: <span>A</span> <span>Catchment</span>-<span>Scale</span> <span>Review</span>. <em>Ecosystems</em>, <em>22</em>(3), 508–527. <a href="https://doi.org/10.1007/s10021-018-0284-7">https://doi.org/10.1007/s10021-018-0284-7</a>
 </div>
 </div>
@@ -265,9 +266,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -332,6 +347,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

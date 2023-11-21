@@ -6,6 +6,7 @@ csl: american-geophysical-union.csl
 output-file: index.html
 ---
 
+
 @chapin_reconciling_2006 is a helpful resource that clarifies some key terms and concepts that are used to discuss carbon exchange.  Different fields have different conventions (e.g. micrometeorology vs ecology) and it can get pretty confusing when you're reading literature from a mix of fields or trying to write to a broad audience.  A good example  
 
 ## NEP
@@ -50,7 +51,7 @@ NECB = -NEE + F_{CO} + F_{CH4} + F_{VOC} + F_{DIC} + F_{DOC} + F_{PC}
 $$
 
 * NEE: is the primary component of the NECB in most ecosystems.
-  * Over short timescales, in some ecosystems $NECB \approx -NEE$$ @baldocchi_assessing_2003.  But as the temporal and/or spatial scales increase NEE and NECB diverge.
+  * Over short timescales, in some ecosystems $NECB \approx -NEE$ @baldocchi_assessing_2003.  But as the temporal and/or spatial scales increase NEE and NECB diverge.
 * $F_{CO}$: Fluxes of carbon monoxide (CO)
   * Anthropogenic systems (e.g., combustion engines) and forest fires are the primary sources of CO
   * Soils are fairly strong CO sinks depending on temperature, most uptake occurs in the tropics @cowan_seasonal_2018
